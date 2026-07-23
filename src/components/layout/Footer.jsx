@@ -16,7 +16,7 @@ function Footer() {
       "
     >
       <p className="mb-2">
-        Adrian.dev — Full Stack & Mobile Developer
+        Adrian.dev — Software Engineering Student
       </p>
 
       <p className="text-sm">

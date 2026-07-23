@@ -1,6 +1,6 @@
 {
-  "heroSubtitle": "Full Stack · Backend · Móvil",
-  "heroTitle": "Ingeniero de Software",
+  "heroSubtitle": "Desarrollo Web & Móvil · Backend",
+  "heroTitle": "Estudiante de Ingeniería en Software",
   "heroDescription": "Diseño y construyo soluciones web y móviles escalables, enfocadas en arquitecturas distribuidas, alta disponibilidad y valor de negocio.",
   "heroCtaProjects": "Ver proyectos",
   "heroCtaContact": "Contacto",
@@ -9,14 +9,14 @@
   "aboutTitle": "Sobre mí",
   "aboutDescription": "Ingeniero en Desarrollo y Gestión de Software con experiencia en arquitecturas distribuidas (Microservicios y Microfrontends), desarrollo móvil multiplataforma y optimización de bases de datos. Líder de equipos de ingeniería y comunicador técnico con experiencia presentando ante más de 2,000 personas.",
   "aboutCard1Title": "Desarrollo",
-  "aboutCard1Description": "Construyo aplicaciones web modernas, APIs backend, interfaces responsivas y soluciones full stack con React, Spring Boot, Flutter y más.",
+  "aboutCard1Description": "Construyo aplicaciones web modernas, APIs backend, interfaces responsivas y soluciones con React, Spring Boot, Flutter y más.",
   "aboutCard2Title": "Liderazgo",
   "aboutCard2Description": "Lidero equipos de ingeniería de hasta 5 integrantes. Experiencia en Scrum, Kanban y presentaciones técnicas ante grandes audiencias.",
   "aboutCard3Title": "Comunicación",
   "aboutCard3Description": "Inglés B1, oratoria técnica ante más de 2,000 asistentes, pensamiento analítico y enfoque orientado a resolver necesidades reales.",
 
   "experienceTitle": "Experiencia",
-  "experienceDescription": "Trayectoria profesional enfocada en desarrollo full stack, móvil y arquitectura de software.",
+  "experienceDescription": "Trayectoria enfocada en desarrollo web, móvil y arquitectura de software.",
 
   "skillsTitle": "Competencias Técnicas",
   "skillsDescription": "Arquitectura de software, desarrollo backend, frontend, móvil, bases de datos, cloud y análisis de datos.",

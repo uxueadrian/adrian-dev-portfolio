@@ -15,8 +15,8 @@ const siteConfig = {
   },
 
   roleShort: {
-    es: "Full Stack & Móvil",
-    en: "Full Stack & Mobile",
+    es: "Estudiante de Ingeniería · Desarrollo Web & Móvil",
+    en: "Engineering Student · Web & Mobile Development",
   },
 
   location: {

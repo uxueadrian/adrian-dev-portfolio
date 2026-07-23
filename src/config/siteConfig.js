@@ -7,7 +7,7 @@ const siteConfig = {
 
   linkedin: "https://www.linkedin.com/in/adrian-uxue-chavez-martinez-a44975312/",
 
-  cv: "/cv.pdf",
+  cv: "/CV_Adrian_Uxue_Chavez_Martinez.pdf",
 
   role: {
     es: "Ingeniero en Desarrollo y Gestión de Software",

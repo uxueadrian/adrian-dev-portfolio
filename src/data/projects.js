@@ -2,6 +2,21 @@ const projects = [
   {
     id: 1,
     title: {
+      es: "Black Iron Studio",
+      en: "Black Iron Studio",
+    },
+    description: {
+      es: "Donde el arte se encuentra con la piel.\n\nEspecialidades:\n• Blackwork\n• Realismo\n• Fine line\n\nComprometidos con los más altos estándares de calidad e higiene.",
+      en: "Where art meets skin.\n\nSpecialties:\n• Blackwork\n• Realism\n• Fine line\n\nCommitted to the highest standards of quality and hygiene.",
+    },
+    technologies: ["React", "Tailwind", "Node.js"],
+    github: "https://github.com/uxueadrian",
+    demo: "https://estudio-tatuaje-nine.vercel.app/",
+    image: "/Black Iron Studio.png",
+  },
+  {
+    id: 2,
+    title: {
       es: "Gestor de Redes Sociales y Puntuación Digital",
       en: "Social Media Manager & Digital Scoring",
     },
@@ -18,11 +33,11 @@ const projects = [
       "NoSQL",
     ],
     github: "https://github.com/uxueadrian",
-    demo: "#",
+    demo: null,
     image: null,
   },
   {
-    id: 2,
+    id: 3,
     title: {
       es: "Sistema Web Inclusivo — Cafetería",
       en: "Inclusive Web System — Café",
@@ -38,11 +53,11 @@ const projects = [
       "Accessibility",
     ],
     github: "https://github.com/uxueadrian",
-    demo: "#",
+    demo: null,
     image: null,
   },
   {
-    id: 3,
+    id: 4,
     title: {
       es: "Sistema Integral — Agencia Automotriz",
       en: "Complete System — Automotive Agency",
@@ -57,11 +72,11 @@ const projects = [
       "MongoDB",
     ],
     github: "https://github.com/uxueadrian",
-    demo: "#",
+    demo: null,
     image: null,
   },
   {
-    id: 4,
+    id: 5,
     title: {
       es: "Voice Apps & Skills para Alexa",
       en: "Alexa Voice Apps & Skills",
@@ -77,11 +92,11 @@ const projects = [
       "Serverless",
     ],
     github: "https://github.com/uxueadrian",
-    demo: "#",
+    demo: null,
     image: null,
   },
   {
-    id: 5,
+    id: 6,
     title: {
       es: "Cafetería Resiliente — POS & Gestión",
       en: "Resilient Café — POS & Management",
@@ -98,11 +113,11 @@ const projects = [
       "MySQL",
     ],
     github: "https://github.com/uxueadrian",
-    demo: "#",
+    demo: null,
     image: null,
   },
   {
-    id: 6,
+    id: 7,
     title: {
       es: "Análisis de Datos & Dashboards",
       en: "Data Analysis & Dashboards",
@@ -119,7 +134,7 @@ const projects = [
       "Pandas",
     ],
     github: "https://github.com/uxueadrian",
-    demo: "#",
+    demo: null,
     image: null,
   },
 ];

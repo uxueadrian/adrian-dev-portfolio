@@ -10,13 +10,13 @@ const siteConfig = {
   cv: "/CV_Adrian_Uxue_Chavez_Martinez.pdf",
 
   role: {
-    es: "Ingeniero en Desarrollo y Gestión de Software",
-    en: "Software Development & Management Engineer",
+    es: "Técnico Superior Universitario en Software",
+    en: "Higher University Technician in Software",
   },
 
   roleShort: {
-    es: "Estudiante de Ingeniería · Desarrollo Web & Móvil",
-    en: "Engineering Student · Web & Mobile Development",
+    es: "TSU en Software · Desarrollo Web & Móvil",
+    en: "Software TSU · Web & Mobile Development",
   },
 
   location: {

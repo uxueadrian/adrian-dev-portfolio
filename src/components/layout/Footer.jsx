@@ -1,7 +1,10 @@
 import { useTranslation } from "react-i18next";
+import siteConfig from "../../config/siteConfig";
 
 function Footer() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const lang = i18n.language;
+  const role = siteConfig.role[lang] || siteConfig.role.es;
 
   return (
     <footer
@@ -16,7 +19,7 @@ function Footer() {
       "
     >
       <p className="mb-2">
-        Adrian.dev — Software Engineering Student
+        Adrian.dev — {role}
       </p>
 
       <p className="text-sm">

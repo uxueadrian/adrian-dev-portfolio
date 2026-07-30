@@ -9,9 +9,15 @@ function Projects() {
   const { t } = useTranslation();
   const [currentPage, setCurrentPage] = useState(1);
 
-  const totalPages = Math.ceil(projects.length / ITEMS_PER_PAGE);
+  const sorted = [...projects].sort((a, b) => {
+    if (a.demo && !b.demo) return -1;
+    if (!a.demo && b.demo) return 1;
+    return 0;
+  });
+
+  const totalPages = Math.ceil(sorted.length / ITEMS_PER_PAGE);
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-  const currentProjects = projects.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+  const currentProjects = sorted.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
   return (
     <section

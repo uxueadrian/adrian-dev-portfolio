@@ -20,6 +20,8 @@ function ProjectCard({ project }) {
         hover:border-white/20
         transition-all
         duration-300
+        flex
+        flex-col
       "
     >
       {project.image && (
@@ -72,6 +74,7 @@ function ProjectCard({ project }) {
           leading-relaxed
           mb-4
           text-sm
+          whitespace-pre-line
         "
       >
         {description}
@@ -95,7 +98,7 @@ function ProjectCard({ project }) {
         ))}
       </div>
 
-      <div className="flex gap-6">
+      <div className="flex items-center gap-4 mt-auto">
         <a
           href={project.github}
           target="_blank"
@@ -105,14 +108,27 @@ function ProjectCard({ project }) {
           {t("projectsGithub")}
         </a>
 
-        <a
-          href={project.demo}
-          target="_blank"
-          rel="noreferrer"
-          className="hover:opacity-70 transition text-sm"
-        >
-          {t("projectsDemo")}
-        </a>
+        {project.demo && (
+          <a
+            href={project.demo}
+            target="_blank"
+            rel="noreferrer"
+            className="
+              ml-auto
+              px-5
+              py-2
+              rounded-xl
+              bg-white
+              text-black
+              font-medium
+              text-sm
+              hover:scale-105
+              transition
+            "
+          >
+            {t("projectsDemo")}
+          </a>
+        )}
       </div>
     </div>
   );

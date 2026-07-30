@@ -1,13 +1,13 @@
 {
   "heroSubtitle": "Web & Mobile Development · Backend",
-  "heroTitle": "Software Engineering Student",
+  "heroTitle": "Higher University Technician in Software",
   "heroDescription": "I design and build scalable web and mobile solutions focused on distributed architectures, high availability and business value.",
   "heroCtaProjects": "View projects",
   "heroCtaContact": "Contact",
   "heroCtaCv": "Download CV",
 
   "aboutTitle": "About Me",
-  "aboutDescription": "Software Development & Management Engineer with experience in distributed architectures (Microservices & Microfrontends), cross-platform mobile development and database optimization. Engineering team leader and technical communicator with experience presenting before over 2,000 attendees.",
+  "aboutDescription": "Higher University Technician in Software with experience in distributed architectures (Microservices & Microfrontends), cross-platform mobile development and database optimization. Engineering team leader and technical communicator with experience presenting before over 2,000 attendees.",
   "aboutCard1Title": "Development",
   "aboutCard1Description": "I build modern web applications, backend APIs, responsive interfaces and solutions with React, Spring Boot, Flutter and more.",
   "aboutCard2Title": "Leadership",
@@ -23,7 +23,7 @@
 
   "projectsTitle": "Featured Projects",
   "projectsGithub": "GitHub",
-  "projectsDemo": "Demo",
+  "projectsDemo": "Visit site",
   "projectsPagePrev": "Previous",
   "projectsPageNext": "Next",
   "projectsPageOf": "of",
